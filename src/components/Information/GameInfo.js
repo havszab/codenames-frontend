@@ -3,17 +3,21 @@ import React from "react";
 class GameInfo extends React.Component  {
 
     render() {
-        const imgPath = "../../assets/information_images/" + this.props.path;
-
         return (
-            <div>
-                <div>
+            <div className="info">
+                <div className="info-title">
                     {this.props.title}
                 </div>
-                <div>
+                <div className="info-content-text">
                     {this.props.body}
                 </div>
-                <img src={require("../../assets/information_images/" + this.props.path)} alt=""/>
+                <img
+                    className="info-content-img"
+                    src={require("../../assets/information_images/" + this.props.path)}
+                    alt={this.props.title}
+                    height={this.props.imgHeight + "px"}
+                    width={this.props.imgWidth + "px"}
+                />
             </div>
         )
     }
