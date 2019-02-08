@@ -10,20 +10,20 @@ class GameInfos extends React.Component {
 
     renderGameInfo(info, index) {
         let grid = {
-            x: 0+index,
-            y: 0+index,
-            w: 5,
-            h: 5,
+            x: info.posX,
+            y: info.posY,
+            w: info.width,
+            h: info.height,
             static: true
         };
         return (
-            <div data-grid={grid} key={"#inf" + info.id}>
+            <div className="info-box" data-grid={grid} key={"#inf" + info.id}>
                 <GameInfo
                     title={info.title}
                     body={info.bodyText}
                     path={info.imgPath}
-                    imgHeight={info.height / 10}
-                    imgWidth={info.width / 10}
+                    imgHeight={info.imgHeight}
+                    imgWidth={info.imgWidth}
                     key={"#inf" + info.id}
                 />
             </div>
@@ -32,16 +32,16 @@ class GameInfos extends React.Component {
 
     render() {
         const grid = {
-            cols: 16,
-            rowHeight: 75,
-            width: 1000
+            cols: 10,
+            rowHeight: 60,
+            width: 1280
         };
 
         return (
             <ReactGridLayout className="layout" cols={grid.cols}
                              rowHeight={grid.rowHeight}
                              width={grid.width}
-                             margin={[0, 0]}
+                             margin={[10, 10]}
                              containerPadding={[10, 10]}>
                 {this.renderGameInfos()}
             </ReactGridLayout>

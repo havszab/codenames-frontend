@@ -5,12 +5,6 @@ class GameInfo extends React.Component  {
     render() {
         return (
             <div className="info">
-                <div className="info-title">
-                    {this.props.title}
-                </div>
-                <div className="info-content-text">
-                    {this.props.body}
-                </div>
                 <img
                     className="info-content-img"
                     src={require("../../assets/information_images/" + this.props.path)}
@@ -18,6 +12,13 @@ class GameInfo extends React.Component  {
                     height={this.props.imgHeight + "px"}
                     width={this.props.imgWidth + "px"}
                 />
+                <h3 className="info-title">
+                    {this.props.title}
+                </h3>
+                <p className="info-content-text">
+                    {this.props.body}
+                </p>
+
             </div>
         )
     }

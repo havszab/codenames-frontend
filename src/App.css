@@ -1,5 +1,25 @@
 .App {
-  text-align: center;
+  text-align: justify;
+}
+
+.info-box {
+ border: black solid 1px;
+}
+
+.info-content-img {
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+
+.info-content-text {
+  text-align: justify;
+  text-indent: 10px;
+  margin: 10px;
+}
+
+.info-title {
+  text-align: left;
+  margin-left: 20px;
 }
 
 .App-logo {
