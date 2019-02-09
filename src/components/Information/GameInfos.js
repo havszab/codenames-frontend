@@ -5,10 +5,10 @@ import ReactGridLayout from "react-grid-layout";
 class GameInfos extends React.Component {
 
     renderGameInfos() {
-        return this.props.infos.map((info, index) => this.renderGameInfo(info, index));
+        return this.props.infos.map((info) => this.renderGameInfo(info));
     }
 
-    renderGameInfo(info, index) {
+    renderGameInfo(info) {
         let grid = {
             x: info.posX,
             y: info.posY,
@@ -34,7 +34,7 @@ class GameInfos extends React.Component {
         const grid = {
             cols: 10,
             rowHeight: 60,
-            width: 1280
+            width: 1275
         };
 
         return (

@@ -1,11 +1,18 @@
 import React from "react";
-import InformationContainer from "./InformationContainer";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 
 class Layout extends React.Component {
     render() {
         return (
-            <InformationContainer/>
+            <div>
+                <Navigation/>
+                <main>
+                    {this.props.children}
+                </main>
+                <Footer/>
+            </div>
         );
     }
 
