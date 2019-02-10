@@ -17,7 +17,7 @@ class GameInfos extends React.Component {
             static: true
         };
         return (
-            <div className="info-box" data-grid={grid} key={"#inf" + info.id}>
+            <div className="info-box" data-grid={grid} key={"#infC" + info.id}>
                 <GameInfo
                     title={info.title}
                     body={info.bodyText}
@@ -31,11 +31,7 @@ class GameInfos extends React.Component {
     }
 
     render() {
-        const grid = {
-            cols: 10,
-            rowHeight: 60,
-            width: 1275
-        };
+        const grid = this.props.gridConfig;
 
         return (
             <ReactGridLayout className="layout" cols={grid.cols}

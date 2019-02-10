@@ -1,3 +1,5 @@
+/* GENERAL */
+
 .none {
   background-color: #274c5e;
   color: #dae9f4;
@@ -12,7 +14,11 @@
   animation: 3s infinite;
 }
 
+.react-grid-layout {
+  position: relative;
+}
 
+/* INFORMATION */
 .info-box {
   border: #77919d solid 2px;
   background-color: #79a8a9;
@@ -34,41 +40,116 @@
   margin-left: 20px;
 }
 
-.navbar {
-  background-color: #77919d;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
+/* USERS - MATCHMAKING */
+.matchmaking {
+  background-color: #79a8a9;
+  width: 980px;
+  margin-left: 10%;
 }
 
-.navbar ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
+.team-title {
   display: flex;
 }
+.user-bar-container {
+  border: #77919d 2px solid;
+}
+.user-image {
+  margin: 5px;
+}
 
-.navbar li {
-  padding: 0 1rem;
-  height: 80%;
+.user-name {
+  text-align: justify;
+  text-indent: 10px;
   margin: 10px;
 }
 
+.user-points {
+  background-color: #f6ea8c;
+  padding: 3px;
+  color: black;
+  display: flex;
+}
+
+.red {
+  background-color: #AF4034;
+}
+
+.red img{
+ float: left;
+}
+
+.red .user-name {
+  float: right;
+}
+
+.red .user-points {
+  float: left;
+  bottom: 0;
+}
+
+.blue {
+  background-color: #274c5e;
+}
+
+.blue img{
+  float: right;
+}
+
+.blue .user-name {
+  float: left;
+}
+
+.blue .user-points {
+  float: right;
+}
+
+/* NAVIGATION */
+
+.navbar {
+  background-color: #77919d;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 80px;
+  overflow: hidden;
+}
+
 .navbar i {
-  color: #274c5e;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
-  cursor: pointer;
-  padding: 4px 15px;
-  border-radius: 3px;
+  font-size: 17px;
 }
 
 .navbar i:hover {
-  color: #274c5e;
-  text-decoration: none;
-  background-color: #dae9f4;
+  background-color: #ddd;
+  color: black;
 }
+
+
+.navbar i.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav-center {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-left {
+  float: left;
+}
+
+/* FOOTER */
 
 .footer {
   background-color: #77919d;
@@ -86,3 +167,10 @@
 .footer span {
   font-size: 8px;
 }
+
+
+.no-response {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
