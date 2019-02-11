@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5d36de-c41c-4192-8bee-640e114fcf9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/profile_pics/img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserBar/UserBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserBar/UserBars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/InformationGridLayoutConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CreateMission/Settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Information/GameInfos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Information/GameInfos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/InformationContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/InformationContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserBar/UserBars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserBar/UserBars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.605916">
+    <splitter split-orientation="horizontal" split-proportion="0.7041985">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+                <state relative-caret-position="189">
+                  <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -60,10 +34,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/CreateMission/Settings.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBars.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="586">
-                  <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+                <state relative-caret-position="369">
+                  <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -74,8 +57,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+                <state relative-caret-position="75">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -87,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+                <state relative-caret-position="253">
+                  <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -148,10 +131,11 @@
         <option value="$PROJECT_DIR$/src/containers/GridLayoutConfig.js" />
         <option value="$PROJECT_DIR$/src/containers/InformationContainer.js" />
         <option value="$PROJECT_DIR$/src/components/Information/GameInfos.js" />
-        <option value="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/UserBar/UserBars.js" />
         <option value="$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js" />
+        <option value="$PROJECT_DIR$/src/components/UserBar/UserBars.js" />
         <option value="$PROJECT_DIR$/src/components/UserBar/UserBar.js" />
+        <option value="$PROJECT_DIR$/src/components/CreateMission/Settings.js" />
+        <option value="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
@@ -278,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1549122222394</updated>
       <workItem from="1549122225225" duration="1435000" />
-      <workItem from="1549537376584" duration="43693000" />
+      <workItem from="1549537376584" duration="53850000" />
     </task>
     <task id="LOCAL-00001" summary="grid layout imported">
       <created>1549620857616</created>
@@ -301,15 +285,30 @@
       <option name="project" value="LOCAL" />
       <updated>1549704903089</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="matchmaking drag&amp;drop">
+      <created>1549815631927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549815631927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45128000" />
+    <option name="totallyTimeSpent" value="55285000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16759333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -317,11 +316,11 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1780822" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11780822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -338,7 +337,8 @@
     <MESSAGE value="grid layout imported" />
     <MESSAGE value="info layout uses backend, simple styling" />
     <MESSAGE value="nav and footer done" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav and footer done" />
+    <MESSAGE value="matchmaking drag&amp;drop" />
+    <option name="LAST_COMMIT_MESSAGE" value="matchmaking drag&amp;drop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -469,16 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -491,15 +481,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/CreateMission/Settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -508,8 +505,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="253">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

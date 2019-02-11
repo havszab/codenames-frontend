@@ -14,6 +14,11 @@
   animation: 3s infinite;
 }
 
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
 .react-grid-layout {
   position: relative;
 }
@@ -41,6 +46,10 @@
 }
 
 /* USERS - MATCHMAKING */
+.matchmaking-container {
+  margin-bottom: 30px;
+}
+
 .matchmaking {
   background-color: #79a8a9;
   width: 980px;
@@ -49,7 +58,15 @@
 
 .team-title {
   display: flex;
+  width: 80%;
+  margin-left: 9%;
 }
+.team-title div {
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+
 .user-bar-container {
   border: #77919d 2px solid;
 }
@@ -80,11 +97,11 @@
 
 .red .user-name {
   float: right;
+  color: #3E4348;
 }
 
 .red .user-points {
   float: left;
-  bottom: 0;
 }
 
 .blue {

@@ -4,37 +4,27 @@ import ReactGridLayout from "react-grid-layout";
 
 class UserBars extends React.Component {
 
-    renderUsers() {
-        return this.props.users.map((user, index) => this.renderUser(user, index));
-    }
 
-    getHorizontalPosition(index) {
-        return index % 2 === 0 ? 0 : 1;
-    }
 
-    getVerticalPosition(index) {
-        return parseInt(index / 2);
-    }
 
-    renderUser(user, index) {
-        let grid = {
-            x: this.getHorizontalPosition(index),
-            y: this.getVerticalPosition(index),
-            w: 1,
-            h: 1,
-            static: false
-        };
+    renderUsers = () => {
+        return this.props.users.map((user) => this.renderUser(user));
+    };
 
-        let teamColor = grid.x % 2 === 0 ? "blue" : "red";
+
+    renderUser = (user) => {
+
+        console.log(user.grid.x)
+        let teamColor = user.grid.x % 2 === 0 ? "blue" : "red";
 
         return (
-            <div className={"user-bar-container " + teamColor}  data-grid={grid} key={"#usrC" + user.id}>
+            <div className={"user-bar-container " + teamColor} data-grid={user.grid} key={"#usrC" + user.id}>
                 <UserBar
                     img={user.img}
                     name={user.username}
                     points={user.points}
                     key={"#usr" + user.id}
-                    teamColorId={grid.x}
+                    teamColorId={user.grid.x}
                 />
             </div>
         )
