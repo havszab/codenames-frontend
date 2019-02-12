@@ -3,6 +3,8 @@ import axios from "axios";
 import UserBars from "../components/UserBar/UserBars";
 import gridConfig from "./CreateMissionGridLayoutConfig";
 import Settings from "../components/CreateMission/Settings";
+import Chat from "../components/CreateMission/Chat";
+import SpinningButton from "../components/UI/SpinningButton";
 
 const API = "http://localhost:8080/api/users";
 
@@ -15,6 +17,8 @@ class CreateMissionContainer extends React.Component {
             time: 0
         }
     };
+
+
 
     addGridLayoutToUsers = (data) => {
         let newUsers = [];
@@ -32,7 +36,7 @@ class CreateMissionContainer extends React.Component {
             newUsers.push(user)
         });
 
-        this.setState({users : newUsers});
+        this.setState({users: newUsers});
     };
 
 
@@ -44,6 +48,12 @@ class CreateMissionContainer extends React.Component {
         return parseInt(index / 2);
     };
 
+    toggleTimerHandler = () => {
+        let prevState = this.state;
+        prevState.timer.isEnabled = !prevState.timer.isEnabled;
+        this.setState({...prevState});
+    }
+
     componentDidMount() {
         axios.get(API)
             .then(response => {
@@ -53,19 +63,25 @@ class CreateMissionContainer extends React.Component {
             .catch(error => {
                 console.log(error + " Couldn't load server response.")
             })
-
     }
 
     render() {
         const content = this.state.users.length !== 0 ?
             <div className="matchmaking-container">
                 <h2>Organizing Mission</h2>
-                <Settings/>
+                <Settings
+                    isTimerEnabled={this.state.timer.isEnabled}
+                    timerTime={this.state.timer.time}
+                    checkToggle={this.toggleTimerHandler}/>
                 <div className="team-title">
                     <div>Blue Team</div>
                     <div>Red Team</div>
                 </div>
                 <UserBars users={this.state.users} gridConfig={gridConfig.grid}/>
+                <Chat title="Mission room chat" subTitle=""/>
+                <div className="btn-wrapper">
+                    <SpinningButton/>
+                </div>
             </div>
             : <div>No data</div>;
         return (
