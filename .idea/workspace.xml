@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5d36de-c41c-4192-8bee-640e114fcf9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/SpinningButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/LoginContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CreateMission/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateMission/Chat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CreateMission/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateMission/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SpinningButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SpinningButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserBar/UserBars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserBar/UserBars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridConfig/CreateMissionGridLayoutConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/InformationContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/InformationContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/InformationGridLayoutConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridConfig/InformationGridLayoutConfig.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +26,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.7041985">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1065">
-                  <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+                <state relative-caret-position="572">
+                  <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -35,11 +38,44 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/UI/SpinningButton.js">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/InformationContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="81" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/LoginContainer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBar.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBars.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -47,8 +83,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/CreateMission/Settings.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
@@ -56,18 +92,18 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
+                <state relative-caret-position="11">
                   <caret line="336" column="6" selection-start-line="336" selection-start-column="2" selection-end-line="336" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js">
+            <entry file="file://$PROJECT_DIR$/src/GridConfig/CreateMissionGridLayoutConfig.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
                   <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -81,7 +117,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Information/GameInfos.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="518">
+                <state relative-caret-position="615">
                   <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -119,16 +155,17 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/containers/GridLayoutConfig.js" />
-        <option value="$PROJECT_DIR$/src/containers/InformationContainer.js" />
         <option value="$PROJECT_DIR$/src/components/Information/GameInfos.js" />
         <option value="$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js" />
-        <option value="$PROJECT_DIR$/src/components/UserBar/UserBars.js" />
-        <option value="$PROJECT_DIR$/src/components/UserBar/UserBar.js" />
-        <option value="$PROJECT_DIR$/src/components/CreateMission/Chat.js" />
-        <option value="$PROJECT_DIR$/src/components/CreateMission/Settings.js" />
-        <option value="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/SpinningButton.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/CreateMission/Chat.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/SpinningButton.js" />
+        <option value="$PROJECT_DIR$/src/components/UserBar/UserBar.js" />
+        <option value="$PROJECT_DIR$/src/components/UserBar/UserBars.js" />
+        <option value="$PROJECT_DIR$/src/components/CreateMission/Settings.js" />
+        <option value="$PROJECT_DIR$/src/containers/LoginContainer.js" />
+        <option value="$PROJECT_DIR$/src/containers/InformationContainer.js" />
+        <option value="$PROJECT_DIR$/src/containers/CreateMissionContainer.js" />
       </list>
     </option>
   </component>
@@ -224,8 +261,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/GridConfig" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets/profile_pics" />
@@ -268,7 +309,8 @@
       <option name="presentableId" value="Default" />
       <updated>1549122222394</updated>
       <workItem from="1549122225225" duration="1435000" />
-      <workItem from="1549537376584" duration="64200000" />
+      <workItem from="1549537376584" duration="68843000" />
+      <workItem from="1550044572714" duration="2657000" />
     </task>
     <task id="LOCAL-00001" summary="grid layout imported">
       <created>1549620857616</created>
@@ -305,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549888158325</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="timer checkbox uses state">
+      <created>1549971991187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549971991187</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65635000" />
+    <option name="totallyTimeSpent" value="72935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +379,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11780822" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24657534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,7 +402,8 @@
     <MESSAGE value="nav and footer done" />
     <MESSAGE value="matchmaking drag&amp;drop" />
     <MESSAGE value="layout info saved into state" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout info saved into state" />
+    <MESSAGE value="timer checkbox uses state" />
+    <option name="LAST_COMMIT_MESSAGE" value="timer checkbox uses state" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -365,13 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Information/Information.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Information/Information.js" />
     <entry file="file://$PROJECT_DIR$/src/static/styles/Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -444,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/InformationGridLayoutConfig.js">
+    <entry file="file://$PROJECT_DIR$/src/GridConfig/InformationGridLayoutConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
@@ -457,16 +501,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/profile_pics/img_17.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Information/GameInfos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -474,17 +508,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/InformationContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/SpinningButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="67" lean-forward="true" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionGridLayoutConfig.js">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="336" column="6" selection-start-line="336" selection-start-column="2" selection-end-line="336" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GridConfig/CreateMissionGridLayoutConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -494,17 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBar.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Information/GameInfos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="615">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -513,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CreateMission/Chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="45">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -523,32 +564,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CreateMission/Settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        <state relative-caret-position="120">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UserBar/UserBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/LoginContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/InformationContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="81" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/CreateMissionContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="336" column="6" selection-start-line="336" selection-start-column="2" selection-end-line="336" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/SpinningButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="572">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

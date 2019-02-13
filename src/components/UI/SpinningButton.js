@@ -6,7 +6,7 @@ class SpinningButton extends React.Component {
         return (
             <div className="btn-container">
                 <div className="btn-submit">
-                    <a href="#" className="round blue">Ready?<span className="round">START MISSION</span></a>
+                    <a href={this.props.linkTo} className="round blue">Ready?<span className="round">START MISSION</span></a>
                 </div>
             </div>
         )

@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import GameInfos from "../components/Information/GameInfos";
-import gridConfig from "./InformationGridLayoutConfig";
+import gridConfig from "../GridConfig/InformationGridLayoutConfig";
 
 const API = "http://localhost:8080/api/info";
 
@@ -20,7 +20,7 @@ class InformationContainer extends React.Component {
                 console.log(this.state)
             })
             .catch(error => {
-                console.log("Couldn't load server response.")
+                console.log("Couldn't load server response. \n Reason : " + error)
             })
 
     }

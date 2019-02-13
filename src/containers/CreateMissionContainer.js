@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import UserBars from "../components/UserBar/UserBars";
-import gridConfig from "./CreateMissionGridLayoutConfig";
+import gridConfig from "../GridConfig/CreateMissionGridLayoutConfig";
 import Settings from "../components/CreateMission/Settings";
 import Chat from "../components/CreateMission/Chat";
 import SpinningButton from "../components/UI/SpinningButton";
@@ -14,26 +14,24 @@ class CreateMissionContainer extends React.Component {
         users: [],
         timer: {
             isEnabled: false,
-            time: 0
+            time: null,
         }
     };
-
 
 
     addGridLayoutToUsers = (data) => {
         let newUsers = [];
 
         data.map((user, index) => {
-            let gridData = {
+            user.grid = {
                 x: this.getHorizontalPosition(index),
                 y: this.getVerticalPosition(index),
                 w: 1,
                 h: 1,
+                onDragStop: this.clickHandLer,
                 static: false
             };
-
-            user.grid = gridData;
-            newUsers.push(user)
+            return newUsers.push(user)
         });
 
         this.setState({users: newUsers});
@@ -51,17 +49,29 @@ class CreateMissionContainer extends React.Component {
     toggleTimerHandler = () => {
         let prevState = this.state;
         prevState.timer.isEnabled = !prevState.timer.isEnabled;
+        prevState.timer.time = null;
         this.setState({...prevState});
-    }
+    };
+
+    setTimeHandler = (event) => {
+        let prevState = this.state;
+        let target = event.target;
+        prevState.timer.time = target.value;
+        this.setState({...prevState});
+        console.log(this.state.timer)
+    };
+
+    clickHandLer = () => {
+        console.log("clicked")
+    };
 
     componentDidMount() {
         axios.get(API)
             .then(response => {
-                //this.setState({users: response.data.users});
                 this.addGridLayoutToUsers(response.data.users);
             })
             .catch(error => {
-                console.log(error + " Couldn't load server response.")
+                console.log(" Couldn't load server response. \n Reason : " + error);
             })
     }
 
@@ -71,16 +81,18 @@ class CreateMissionContainer extends React.Component {
                 <h2>Organizing Mission</h2>
                 <Settings
                     isTimerEnabled={this.state.timer.isEnabled}
-                    timerTime={this.state.timer.time}
-                    checkToggle={this.toggleTimerHandler}/>
+                    timerValue={this.state.timer.time}
+                    checkToggle={this.toggleTimerHandler}
+                    setTime={this.setTimeHandler}
+                />
                 <div className="team-title">
                     <div>Blue Team</div>
                     <div>Red Team</div>
                 </div>
-                <UserBars users={this.state.users} gridConfig={gridConfig.grid}/>
+                <UserBars users={this.state.users} gridConfig={gridConfig.grid} clicked={this.clickHandLer}/>
                 <Chat title="Mission room chat" subTitle=""/>
                 <div className="btn-wrapper">
-                    <SpinningButton/>
+                    <SpinningButton linkTo="/"/>
                 </div>
             </div>
             : <div>No data</div>;

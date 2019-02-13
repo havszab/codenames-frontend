@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Widget, addResponseMessage, addLinkSnippet, addUserMessage } from 'react-chat-widget';
+import { Widget, addResponseMessage } from 'react-chat-widget';
+
+//, addLinkSnippet, addUserMessage is also importable
 
 import 'react-chat-widget/lib/styles.css';
 

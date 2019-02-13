@@ -6,7 +6,7 @@ class Settings extends React.Component {
     render() {
         let timeSettings = this.props.isTimerEnabled ?
             <div>
-                <input type="number" name="sec" step={30} min={0} max={300}/> sec.
+                <input type="number" name="sec" value={this.props.timerValue} step={30} min={0} max={300} onChange={this.props.setTime}/> sec.
             </div>
             : null;
 
