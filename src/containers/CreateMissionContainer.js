@@ -1,12 +1,13 @@
 import React from "react";
 import axios from "axios";
 import UserBars from "../components/UserBar/UserBars";
-import gridConfig from "../GridConfig/CreateMissionGridLayoutConfig";
+import gridConfig from "../Config/CreateMissionGridLayoutConfig";
 import Settings from "../components/CreateMission/Settings";
 import Chat from "../components/CreateMission/Chat";
 import SpinningButton from "../components/UI/SpinningButton";
+import api from "../Config/APIconfig";
 
-const API = "http://localhost:8080/api/users";
+const API = api + "/api/users";
 
 class CreateMissionContainer extends React.Component {
 

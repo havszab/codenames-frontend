@@ -14,7 +14,8 @@ class GameInfos extends React.Component {
             y: info.posY,
             w: info.width,
             h: info.height,
-            static: true
+            static: false
+
         };
         return (
             <div className="info-box" data-grid={grid} key={"#infC" + info.id}>
